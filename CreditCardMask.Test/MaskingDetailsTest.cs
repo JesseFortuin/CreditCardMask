@@ -1,3 +1,5 @@
+using CreditCardMask.BL;
+
 namespace CreditCardMask.Test
 {
     public class MaskingDetailsTest
@@ -13,7 +15,7 @@ namespace CreditCardMask.Test
         public void MaskifyTest(string input, string expected)
         {
             //arrange
-            IMaskingDetails mask = new MaskingDetails();
+            MaskingDetails mask = new MaskingDetails();
 
 
             //act
