@@ -11,3 +11,28 @@ Kata.Maskify("");                 // should return ""
 // "What was the name of your first pet?"
 Kata.Maskify("Skippy");                                   // should return "##ippy"
 Kata.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
+
+
+----------------------------------------------------------
+Solutions
+
+    int len = cc.Length;
+    if (len <=4)
+      return cc;
+        
+    return cc.Substring(len-4).PadLeft(len, '#');
+
+---------------
+
+var cs = cc.ToCharArray();
+
+            for (int i = 0; i < cc.Length - 4; i++)
+            {
+                cs[i] = '#';
+            }
+
+            return string.Concat(cs);
+
+---------------
+
+return cc.Substring(cc.Length < 4 ? 0 : cc.Length - 4).PadLeft(cc.Length, '#');

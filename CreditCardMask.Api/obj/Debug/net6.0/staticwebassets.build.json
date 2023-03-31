@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "flbTVrZJ9rIcCkrfKuaqapGsrv5jpDW7wvVSPL/w1E8=",
+  "Source": "CreditCardMask.Api",
+  "BasePath": "_content/CreditCardMask.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
